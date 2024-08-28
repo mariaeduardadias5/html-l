@@ -1,0 +1,116 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção de Destaques */
+.destaques {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaques h2 {
+    margin-bottom: 20px;
+}
+
+.filme {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.filme img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.filme h3 {
+    margin-top: 10px;
+}
+
+.filme p {
+    color: #666;
+}
+
+/* Seção de Lista de Filmes */
+.lista {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.lista h2 {
+    margin-bottom: 20px;
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista ul li:last-child {
+    border-bottom: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
