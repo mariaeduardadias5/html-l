@@ -1,0 +1,50 @@
+DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Música</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Metalight</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#music">Músicas</a></li>
+                <li><a href="#contact">Top 10</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem Vindo</h2>
+            <p>Novos lançamentos para vocês.</p>
+        </section>
+        <section id="music">
+            <h2>Músicas Populares</h2>
+            <img src="data:image/jpeg;base64,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" alt="the boy is mine>
+            <p> Ariana Grande -the boy is mine</p>
+            <div class="music-player">
+                <audio controls>
+                    <source src="musica.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+            <ul>
+                <li>Ariana Grande - the boy is mine </li>
+                <li>Artista 2 - Música 2</li>
+                <li>Artista 3 - Música 3</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Envie suas sugestões para: <a href="mailto:contato@musicasite.com">contato@musicasite.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site de Música</p>
+    </footer>
+</body>
+</html>
