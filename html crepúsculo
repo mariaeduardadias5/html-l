@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Saga Crepúsculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>A Saga Crepúsculo</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.adorocinema.com/filmes/filme-131377/creditos/">Elenco</a></li>
+                <li><a href="#lista">Lista de Filmes</a></li>
+                <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjV4pLays2IAxXGAa0GHfprHCEYABAFGgJwdg&co=1&ase=2&gclid=EAIaIQobChMI1eKS2srNiAMVxgGtBh36axwhEAYYAiABEgKAwvD_BwE&ohost=www.google.com&cid=CAASJuRohZMdTWRLeEmenE62gyLiHl30VCl4hJ2KNUcCWLlrC2wUKn0v&sig=AOD64_0k4Wsf6obDVQz8c3pYC9euNJW0Nw&ctype=5&q=&nis=4&ved=2ahUKEwjukIrays2IAxXSlJUCHT0WDxUQ9aACKAB6BAgFEBI&adurl=">Livros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="destaques" class="destaques">
+        <h2>Filmes</h2>
+        <div class="filme">
+            <div class="filme-imagem">
+                <img src="https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg" alt="Capa do filme Crepúsculo" />
+                <a href="https://youtu.be/Ru8THEGdcEU?si=PzV2Zj0n8K9YYB3f" class="botao">Trailer</a>
+            </div>
+            <h3>Crepúsculo</h3>
+            <p>A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente. Edward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.</p>
+        </div>
+        <div class="filme">
+            <div class="filme-imagem">
+                <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/89/73/19962668.jpg" alt="Capa do filme Lua Nova" />
+                <a href="https://youtu.be/1lxy7HMBc7s?si=s_4F2SD2hP2cr-mK" class="botao">Trailer</a>
+            </div>
+            <h3>A Saga Crepúsculo: Lua Nova</h3>
+            <p>Depois da partida de Edward, Jacob se transforma no melhor amigo de Bella. Mas o que ela não imagina é que Jacob também tem um segredo que mudará suas vidas repentinamente.</p>
+        </div>
+        <div class="filme">
+            <div class="filme-imagem">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/8/85/Twilight_Saga_Eclipse.jpg" alt="Capa do filme Eclipse" />
+                <a href="https://youtu.be/7svbINkjPiU?si=BGCoaF0IcYhpXwUG" class="botao">Trailer</a>
+            </div>
+            <h3>A Saga Crepúsculo: Eclipse</h3>
+            <p>O perigo novamente ronda Bella com uma série de crimes misteriosos aterrorizando Seattle e um vampiro malicioso em busca de vingança. Em meio ao tumulto, Bella precisa escolher entre seu amor por Edward e sua amizade com Jacob, sabendo que sua decisão pode desencadear uma batalha entre vampiro e lobisomem.</p>
+        </div>
+    </section>
+
+    <section id="lista" class="lista">
+        <ul>
+            <!-- Adicione mais filmes conforme necessário -->
+        </ul>
+    </section>
+
+    <footer id="contato">
+        <p>&copy; 2024 A Saga Crepúsculo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
