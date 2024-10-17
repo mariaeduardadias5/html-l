@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok</title>
+</head>
+<style>
+    body{background-color: #e09ffa;}
+    button{background-color: blueviolet;}
+</style>
+<body>
+ <h1>Seja Bem-Vindo</h1>
+   <h2>Login</h2>
+    <p>E-mail:</p> <input></input>
+    <p>Senha:</p> <input type="password">
+    <button>Entrar</button>
+    <hr>
+    <p align=center>Ainda não tem conta? Se cadastre já.</p>
+<p align=center>Nome:<input></input><br>
+    Data de Nascimento: <input type="date"><br>
+    Email:<input><br>
+       Senha:<input type="password"><br>
+       <button>Cadastrar</button>
+       <footer>todos os direitos reservados ao sadem</footer>
+</p>
+</body>
+</html>
